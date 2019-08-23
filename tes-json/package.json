@@ -1,0 +1,14 @@
+{
+  "name": "tes-json",
+  "version": "1.0.0",
+  "description": "Fake Rest API For tes",
+  "main": "index.js",
+  "scripts": {
+    "test": "json-server --watch db.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.15.0"
+  }
+}

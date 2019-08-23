@@ -1,0 +1,230 @@
+{
+  "dokter": [
+    {
+      "id": "1",
+      "nama": "Dr Aji Pratomo",
+      "jenis_kelamin": "pria",
+      "tempat_praktik": "RS Pusat Pertamina",
+      "tanggal_praktik": "Kamis, 22 Agustus 2019",
+      "id_praktek": 1,
+      "id_spesialis": 1,
+      "flag_bisa_online": true
+    },
+    {
+      "id": "2",
+      "nama": "Dr Bima Jati",
+      "jenis_kelamin": "pria",
+      "tempat_praktik": "RS Pusat Pertamina",
+      "tanggal_praktik": "Kamis, 22 Agustus 2019",
+      "id_praktek": 1,
+      "id_spesialis": 1,
+      "flag_bisa_online": false
+    },
+    {
+      "id": "3",
+      "nama": "Dr Sumi",
+      "jenis_kelamin": "wanita",
+      "id_praktek": 1,
+      "id_spesialis": 1,
+      "tempat_praktik": "RS Pusat Pertamina",
+      "tanggal_praktik": "Kamis, 22 Agustus 2019",
+      "flag_bisa_online": false
+    },
+    {
+      "id": "4",
+      "nama": "Dr Gilang",
+      "jenis_kelamin": "pria",
+      "id_praktek": 1,
+      "id_spesialis": 2,
+      "tempat_praktik": "RS Pusat Pertamina",
+      "tanggal_praktik": "Kamis, 22 Agustus 2019",
+      "flag_bisa_online": true
+    }
+  ],
+  "jadwal_praktek": [
+    {
+      "id": "1",
+      "id_dokter": "1",
+      "nama": "RS Pusat Pertamina",
+      "tanggal_praktik": "Kamis, 22 Agustus 2019",
+      "jam": "10.00 - 12.00",
+      "flag_dipilih": false
+    },
+    {
+      "id": "2",
+      "id_dokter": "1",
+      "nama": "RS Pusat Pertamina",
+      "tanggal_praktik": "Kamis, 22 Agustus 2019",
+      "jam": "17.00 - 19.00",
+      "flag_dipilih": false
+    },
+    {
+      "id": "3",
+      "id_dokter": 2,
+      "nama": "RS Pusat Pertamina",
+      "tanggal_praktik": "Kamis, 22 Agustus 2019",
+      "jam": "15.00 - 17.00",
+      "flag_dipilih": false
+    },
+    {
+      "id": "4",
+      "id_dokter": 3,
+      "nama": "RS Pusat Pertamina",
+      "tanggal_praktik": "Kamis, 22 Agustus 2019",
+      "jam": "10.00 - 12.00",
+      "flag_dipilih": false
+    },
+    {
+      "id": "5",
+      "id_dokter": 4,
+      "nama": "RS Pusat Pertamina",
+      "tanggal_praktik": "Kamis, 22 Agustus 2019",
+      "jam": "11.00 - 13.00",
+      "flag_dipilih": false
+    },
+    {
+      "id": "6",
+      "id_dokter": 4,
+      "nama": "RS Pusat Pertamina",
+      "tanggal_praktik": "Kamis, 23 Agustus 2019",
+      "jam": "15.00 - 17.00",
+      "flag_dipilih": false
+    },
+    {
+      "id": "7",
+      "id_dokter": 4,
+      "nama": "RS Pusat Pertamina",
+      "tanggal_praktik": "Kamis, 23 Agustus 2019",
+      "jam": "19.00 - 21.00",
+      "flag_dipilih": false
+    }
+  ],
+  "faskes_praktek": [
+    {
+      "id": "1",
+      "id_dokter": 1,
+      "nama": "RS Pusat Pertamina",
+      "alamat": "Jl Kyai Maja No 43, Kebayoran"
+    },
+    {
+      "id": "2",
+      "id_dokter": 1,
+      "nama": "RS Sakit Jiwa Jakarta",
+      "alamat": "Jl Ujung Kulon No 99, Jakarta Barat"
+    },
+    {
+      "id": "3",
+      "id_dokter": 2,
+      "nama": "RS Pusat Pertamina",
+      "alamat": "Jl Kyai Maja No 43, Kebayoran"
+    },
+    {
+      "id": "4",
+      "id_dokter": 3,
+      "nama": "RS Pusat Pertamina",
+      "alamat": "Jl Kyai Maja No 43, Kebayoran"
+    },
+    {
+      "id": "5",
+      "id_dokter": 4,
+      "nama": "RS Pusat Pertamina",
+      "alamat": "Jl Kyai Maja No 43, Kebayoran"
+    },
+    {
+      "id": "6",
+      "id_dokter": 4,
+      "nama": "RS Pusat Pertamina",
+      "alamat": "Jl Kyai Maja No 43, Kebayoran"
+    },
+    {
+      "id": "7",
+      "id_dokter": 4,
+      "nama": "RS Galau Banget",
+      "alamat": "Jl Ujung Buntut, No 95, Jakarta Barat"
+    }
+  ],
+  "keahlian": [
+    {
+      "id": "1",
+      "id_dokter": 1,
+      "nama": "Tenaga Dalam"
+    },
+    {
+      "id": "2",
+      "id_dokter": 1,
+      "nama": "Timpanoplasti"
+    },
+    {
+      "id": "3",
+      "id_dokter": 1,
+      "nama": "Panas Dalam"
+    },
+    {
+      "id": "4",
+      "id_dokter": 2,
+      "nama": "Tenaga Dalam"
+    },
+    {
+      "id": "5",
+      "id_dokter": 2,
+      "nama": "Demam Gawat"
+    },
+    {
+      "id": "6",
+      "id_dokter": 2,
+      "nama": "Panas Dalam"
+    },
+    {
+      "id": "7",
+      "id_dokter": 3,
+      "nama": "Tenaga Dalam"
+    },
+    {
+      "id": "8",
+      "id_dokter": 3,
+      "nama": "Bedah Anak"
+    },
+    {
+      "id": "9",
+      "id_dokter": 3,
+      "nama": "Chakra"
+    },
+    {
+      "id": "10",
+      "id_dokter": 4,
+      "nama": "Tambal Gigi"
+    }
+  ],
+  "penyakit": [
+    {
+      "id": "1",
+      "id_dokter": 1,
+      "nama": "Radang Tenggorokan"
+    },
+    {
+      "id": "2",
+      "id_dokter": 1,
+      "nama": "Panas Tinggi"
+    },
+    {
+      "id": "3",
+      "id_dokter": 2,
+      "nama": "Radang Tenggorokan"
+    },
+    {
+      "id": "4",
+      "id_dokter": 2,
+      "nama": "Demam Berdarah"
+    },
+    {
+      "id": "5",
+      "id_dokter": 3,
+      "nama": "Usus Buntu"
+    },
+    {
+      "id": "6",
+      "id_dokter": 4,
+      "nama": "gigi graham berlubang"
+    }
+  ]
+}
